@@ -24,6 +24,20 @@ function isPalindrome(word) {
 
 /*
   Add written explanation of your solution here
+
+  we create a function reverseString that takes a word parameter
+  reverse word parameter using a combination of split, reverse and join
+  split converts word into an array
+  reverse writes the array backwards
+  join combines the reversed array 
+  return reversed array
+  we create isPalindrome function that takes a word parameter
+  invoke reverseString passing in word parameter and 
+  store result in a variable reverseWord
+  compare word parameter with reversedWord
+  return true if the comparison evaluates to true
+  return false if the comparison evaluates to false
+
 */
 
 // You can run `node index.js` to view these console logs
